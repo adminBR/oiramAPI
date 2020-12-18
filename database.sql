@@ -7,13 +7,14 @@ CREATE TABLE todo(
     description VARCHAR(255)
 ); 
 
+CREATE DATABASE oiramDB;
+
 CREATE TABLE mapas(
-    mapa_id SERIAL PRIMARY KEY,
-    mapa_nome VARCHAR(20),
-    mapa_criador VARCHAR(20),
-    mapa_json TEXT,
-    mapa_data DATE,
-    mapa_Branch INT
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(20),
+    criador VARCHAR(20),
+    json TEXT,
+    data DATE
 );
 
 
